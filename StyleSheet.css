@@ -1,0 +1,31 @@
+
+html{
+    background-color:burlywood;
+    font-size:1.8vw;
+}
+h1{font-size:300%;
+}
+
+p1{
+    background-color :rgba(135, 155, 222, 0.24);
+    font-family:courier;
+}
+p2{
+    background-color :rgba(100, 148, 237, 0.267);
+    font-family:courier;
+}
+.ro{
+    text-align: center;
+}
+.ya{
+   width: 16%;
+}
+.aa{
+   color: aqua;
+   font-family: monospace;
+}
+ul { display: inline-block; text-align: left; 
+}
+ol{
+    display: inline-block; text-align: left;
+}
