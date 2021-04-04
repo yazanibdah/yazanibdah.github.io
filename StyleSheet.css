@@ -1,7 +1,6 @@
-
 html{
     background-color:burlywood;
-    font-size:120%;
+    font-size:1.8vw;
 }
 h1{font-size:300%;
 }
@@ -18,7 +17,7 @@ p2{
     text-align: center;
 }
 .ya{
-   width: 30%;
+  max-width: 100%;
 }
 .aa{
    color: aqua;
