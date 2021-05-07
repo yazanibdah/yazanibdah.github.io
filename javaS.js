@@ -110,6 +110,6 @@ var lastyear = v+1;
 
 
 today = v+'-'+r+'-'+z;
-yearAhead = lastyear+'-'+r+'-'+z;
+year = lastyear+'-'+r+'-'+z;
 document.getElementById('graduate').setAttribute("min", today);
 document.getElementById('graduate').setAttribute("max", year);
