@@ -96,20 +96,20 @@ for(var i=0;elMail[i]!='@'&&i<elMail.length;i++){
  alert("The application of ["+uname+"] is saved!");
 }
 var today = new Date();
-var yearAhead = new Date();
-var dd = today.getDate();
-var mm = today.getMonth()+1; 
-var yyyy = today.getFullYear();
-var lastYear = yyyy+1;
- if(dd<10){
-        dd='0'+dd
+var year = new Date();
+var z = today.getDate();
+var r = today.getMonth()+1; 
+var v = today.getFullYear();
+var lastyear = v+1;
+ if(z<10){
+        z='0'+z
     } 
-    if(mm<10){
-        mm='0'+mm
+    if(r<10){
+        r='0'+r
     } 
 
 
-today = yyyy+'-'+mm+'-'+dd;
-yearAhead = lastYear+'-'+mm+'-'+dd;
-document.getElementById('graduate').setAttribute("max", yearAhead);
+today = v+'-'+r+'-'+z;
+yearAhead = lastyear+'-'+r+'-'+z;
 document.getElementById('graduate').setAttribute("min", today);
+document.getElementById('graduate').setAttribute("max", year);
