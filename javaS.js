@@ -95,3 +95,21 @@ for(var i=0;elMail[i]!='@'&&i<elMail.length;i++){
 }
  alert("The application of ["+uname+"] is saved!");
 }
+var today = new Date();
+var yearAhead = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; 
+var yyyy = today.getFullYear();
+var lastYear = yyyy+1;
+ if(dd<10){
+        dd='0'+dd
+    } 
+    if(mm<10){
+        mm='0'+mm
+    } 
+
+
+today = yyyy+'-'+mm+'-'+dd;
+yearAhead = lastYear+'-'+mm+'-'+dd;
+document.getElementById('graduate').setAttribute("max", yearAhead);
+document.getElementById('graduate').setAttribute("min", today);
